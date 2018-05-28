@@ -9,7 +9,7 @@ body {
     width: auto;
     max-width: 30rem;
     height: auto;
-    margin: 10rem auto 0 auto;
+    margin: 10rem auto 3rem auto;
     background-color:grey;
     
 }
@@ -39,6 +39,7 @@ button{
     box-sizing: border-box;
     outline: none;
     border: 0.01rem solid gray;
+    cursor: pointer;
 }
 button:active {
     background-color: gray;
@@ -51,18 +52,33 @@ p{
     position: absolute;
     bottom:0;
     right: 0;
-    margin: 0 1rem;
+    margin: 0 0.1rem;
     text-align: center;
+}
+
+footer {
+    margin: 0 auto;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: coral;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 @media(min-width: 43em) {
     .result-box {
     width: 100%;
-    height: 7rem;
+    height: 6rem;
     background-color: rgb(88, 85, 85);
     color: black;
     position: relative;
-    font-size: 3rem;
+    font-size: 4rem;
     }
     button{
         width: 25%;
@@ -75,5 +91,9 @@ p{
         box-sizing: border-box;
         outline: none;
         border: 0.01rem solid gray;
+    }
+    footer {
+        margin: 0 auto;
+        font-size: 2rem;
     }
 }
